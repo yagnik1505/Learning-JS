@@ -31,7 +31,29 @@
 
 // console.log(ss.slice(-7,-3));
 
-const a = 10,b = 20
-console.log(Math.floor(Math.random() * (b-a+1)) + a)
+// const a = 10,b = 20
+// console.log(Math.floor(Math.random() * (b-a+1)) + a)
 
-console.log(new Date().toString())
+// console.log(new Date().toString())
+
+// spread operator
+
+// function add(f1,f2,...f3){
+//     const arr = Array.of(f1,f2,f3)
+//     console.log(arr);
+    
+// }
+
+// add(100,200,300,40,805,50)
+
+(function yag(){
+    console.log(`yagnik pansheriya`);
+    
+})();
+
+
+( (name) => {
+    console.log(`hoooooo ${name}`);
+})(`yagnik`);
+
+

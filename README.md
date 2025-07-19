@@ -36,4 +36,63 @@ Date's typeof is object
 
 console.log(new Date().toString())  ==>   Fri Jul 11 2025 01:21:05 GMT+0530 (India Standard Time)
 
- 
+const arr2 = [1,1,12,44,[4,5,6,[8,8,9,9,10,[5,9,6,3]]]]
+const arr1 = arr2.flat(Infinity)
+console.log(arr1);
+
+==> in this type of scenario where array contains another array in depth then using flat method we can simply create a new singlw one dimensional array.
+
+
+Object
+
+using constructor object will be created as singleton , while using literal new object created each time.
+
+
+Correct Way to Implement Symbol in Js in object
+
+const mysym = Symbol("myKey");  
+
+const obj1 = {
+    [mysym] : "ji"
+}
+
+console.log(obj1[mysym]);
+
+for destructuring the object
+
+const {name : n} = obj1
+console.log(n);
+
+Spread and Rest operator both has same sign ...
+based on where we put we decide which one is execute.
+
+
+IIFE :- Immediately Invoked Function Expressions 
+it is basically used for removing pollution of global scope.
+
+(function yag(){
+    console.log(`yagnik pansheriya`);
+    
+})();
+
+
+( (name) => {
+    console.log(`hoooooo ${name}`);
+    
+})(`yagnik`);
+
+
+Javascript Exceution Context
+
+==>  Global EC {}
+==>  Functional EC
+==>  Eval EC
+
+Global Execution Phase
+
+Memeory Creation Phase
+    ==> in this part all the variable and function are allocated memory and their value will be undefined.
+
+Execution Phase
+    ==> value will be assign to variable
+        
