@@ -77,4 +77,5 @@ const trr = crr.reduce(function (acc,curr){
 
 after parenthesis for intial value we provide it after comma as above mention.
 
-remember it not modified the orignal array.
+Remember it not modified the orignal array.
+
