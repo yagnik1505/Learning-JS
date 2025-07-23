@@ -103,7 +103,3 @@ const trr = crr.reduce(function (acc,curr){
 },100)
 
 console.log(trr);
-
-
-
-

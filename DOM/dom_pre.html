@@ -15,17 +15,18 @@
 </head>
 <body>
     
-    <div class="bg-black">
-        <h1 style = "color : blue" class="heading" id="hea">Lorem ipsum dolor sit amet <span style="display : none">Hidden Content is shown.</span></h1>
-        <p>Lorem ipsum dolor sit amet.</p>
-        <ul>
-            <li>Sonu</li>
-            <li>
-                Darshan
-            </li>
-            <li>Yagnik</li>
-        </ul>
-    </div>
+    <script>
+        const temp = document.createElement('div')
+        temp.className = "yag"
+        temp.id = 'y1'
+        temp.style.color = "red"
+        temp.style.padding = "40px" 
+       
+        const addText = document.createTextNode('yagnik pasheriya')
+        temp.appendChild(addText)
+        
+        document.body.appendChild(temp)
+     </script> 
 
     
 
